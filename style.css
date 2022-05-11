@@ -1,0 +1,86 @@
+
+.CommentDisplay1, .CommentDisplay2, .CommentDisplay3, .CommentDisplay4, .CommentDisplay5{
+  position:relative;
+  width:99.6%;
+  height:18.1vh;
+  display:inline-block;
+  z-index:-9;
+  border-width:0.3vh;
+  border-color:black;
+  border-style:solid;
+  justify-content:center;
+}
+
+
+.kommentardivinre, .kommentardivyttre{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-right:-50%;
+  transform: translate(-50%, -50%);
+}
+
+.kommentardivyttre{
+  width:45%;
+  height:15vh;
+  background-color:black;
+}
+
+.kommentardivinre{
+  width:99.5%;
+  height:14.6vh;
+  background-color:white;
+}
+
+.Time{
+  font-family:monospace;
+  border-color:black;
+  border-width:0.3vh;
+  border-style:solid;
+  display:block;
+  float:right;
+  width:8.9vh;
+  margin-top:0.2vh;
+  margin-right:-17.2vh;
+
+}
+
+.Date{
+  font-family:monospace;
+  border-color:black;
+  border-width:0.3vh;
+  border-style:solid;
+  float:right;
+  display:block;
+  margin-top:7.4vh;
+  margin-right:0.2vh;
+}
+
+.KommentarBoxKlass{
+  display:flex;
+  width: 59.4vh;
+  height:6.1vh;
+  border-width:0.3vh;
+  border-color:black;
+  margin-top:-7vh;
+  margin-left:10.3vh;
+  
+}
+
+.KommentarBoxKlass:focus{
+  outline:0.2vh;
+  border-color:black;
+  border-radius: 0px;
+}
+
+.KommentarKnappKlass{
+  display:flex;
+  background-color:white;
+  width:9.9vh;
+  height:7vh;
+  border-width:0.3vh;
+  border-color:black;
+  margin-top:7.4vh;
+  margin-left:0.2vh;
+  justify-content: center;
+}
